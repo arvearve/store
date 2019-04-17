@@ -63,6 +63,15 @@
         "official": "true"
     },
     {
+        "template": "node-armhf",
+        "platform": "armhf",
+        "language": "NodeJS",
+        "source": "openfaas",
+        "description": "Official NodeJS 8 armhf template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
         "template": "php7",
         "platform": "x86_64",
         "language": "PHP",
@@ -285,6 +294,60 @@
         "source": "openfaas",
         "description": "F# template for OpenFaaS",
         "repo": "https://github.com/hayer/faas-fsharp-template",
-        "official": "true"
+        "official": "false"
+    },
+    {
+        "template": "vertx-native",
+        "platform": "x86_64",
+        "language": "Java",
+        "source": "pmlopes",
+        "description": "Eclipse Vert.x native image template",
+        "repo": "https://github.com/pmlopes/openfaas-vertx-native-template",
+        "official": "false"
+    },
+    {
+        "template": "swift",
+        "platform": "x86_64",
+        "language": "Swift",
+        "source": "affix",
+        "description": "Swift 4.2 Template",
+        "repo": "https://github.com/affix/openfaas-templates-affix/",
+        "official": "false"
+    },
+    {
+        "template": "lua53",
+        "platform": "x86_64",
+        "language": "Lua",
+        "source": "affix",
+        "description": "Lua 5.3 Template",
+        "repo": "https://github.com/affix/openfaas-templates-affix/",
+        "official": "false"
+    },
+    {
+        "template": "vala",
+        "platform": "x86_64",
+        "language": "Vala",
+        "source": "affix",
+        "description": "Vala Template",
+        "repo": "https://github.com/affix/openfaas-templates-affix/",
+        "official": "false"
+    },
+    {
+        "template": "vala-http",
+        "platform": "x86_64",
+        "language": "Vala",
+        "source": "affix",
+        "description": "Non-Forking Vala Template",
+        "repo": "https://github.com/affix/openfaas-templates-affix/",
+        "official": "false"
+    },
+    {
+        "template": "quarkus-native",
+        "platform": "x86_64",
+        "language": "Java",
+        "source": "pmlopes",
+        "description": "Quarkus.io native image template",
+        "repo": "https://github.com/pmlopes/openfaas-quarkus-native-template",
+        "official": "false"
     }
 ]
